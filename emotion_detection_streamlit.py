@@ -157,3 +157,8 @@ if st.button("Detect Mood"):
                 st.subheader(f" Person {idx}: **{emo.upper()}**")
                 st.markdown(f"[ Music Recommendation]({rec['music']})")
                 st.markdown(f" **Suggested Activity:** _{rec['exercise']}_")
+
+# Footer
+st.markdown("---")
+st.markdown("<div style='text-align: center; font-size: 14px;'>Made by <b>Hariharan Sriram - University at Buffalo </b></div>", unsafe_allow_html=True)
+
